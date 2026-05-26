@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="wraper">
+        <div class="left">
+            <div class="title">
+                INFORMATION
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Et molestie ac feugiat sed.
+                Diam volutpat commodo.
+
+            </div>
+            <div class="description">
+                <span class="firstwords">Eu ultrices: </span>
+                 Vitae auctor eu augue ut. Malesuada
+                nunc vel risus commodo viverra. Praesent
+                elementum facilisis leo vel.
+            </div>
+            <div class="HaveAaccount">
+                Have a account
+            </div>
+        </div>
+        <div class="right">
+            <div class="formTitle">
+                REGISTERED FORM
+            </div>
+            <form class="form" method="post" action="#">
+
+                <div class="formInput">
+                    <label class="lablel">Full Name</label>
+                    <input class="input" type="text"
+                           name="fullName" />
+                </div>
+                <div class="formInput">
+                    <label class="lablel">Student Id</label>
+                    <input class="input" type="text"
+                           name="studentId" />
+
+                </div>
+                <div class="formInput">
+                    <label class="lablel">Level</label>
+                    <input class="radio" type="radio"
+                           name="level"
+                           value="Y" />
+
+                    <label class="radiolablel">Y</label>
+                    <input class="radio" type="radio"
+                           name="level"
+                           value="Ya" />
+                    <label class="radiolablel">Ya</label>
+
+                    <input class="radio" type="radio"
+                           name="level"
+                           value="Yb" />
+                    <label class="radiolablel">Yb</label>
+                </div>
+                <div class="formInput">
+                    <label class="lablel">Class</label>
+                    <input class="radio" type="radio"
+                           name="kita"
+                           value="1" />
+                    <label class="radiolablel">1</label>
+                    <input class="radio" type="radio"
+                           name="kita"
+                           value="2" />
+                    <label class="radiolablel">2</label>
+                    <input class="radio" type="radio"
+                           name="kita"
+                           value="3" />
+                    <label class="radiolablel">3</label>
+                    <input class="radio" type="radio"
+                           name="kita"
+                           value="4" />
+                    <label class="radiolablel">4</label>
+                    <input class="radio" type="radio"
+                           name="kita"
+                           value="5" />
+                    <label class="radiolablel">5</label>
+                    <input class="radio" type="radio"
+                           name="kita"
+                           value="6" />
+                    <label class="radiolablel">6</label>
+                </div>
+                <div class="formInput">
+                    <label class="lablel">Subject</label>
+                    <select class="select" name="subject">
+                        <option value="0">Select your subject</option>
+                        <option value="math">Math</option>
+                        <option value="english">English</option>
+                        <option value="chinese">Chinese</option>
+                    </select>
+                </div>
+                <div class="formInput">
+                    <label class="lablel">The reason</label>
+                    <textarea class="reseon" name="thereazon"></textarea>
+                </div>
+                <div class="formInput">
+                    <label class="lablel">Faivorite day</label>
+                    <input class="day" type="checkbox" name="day" value="1" />
+                    <label class="lablel">Sunday</label>
+                    <input class="day" type="checkbox" name="day" value="2" />
+                    <label class="lablel">Monday</label>
+                    <input class="day" type="checkbox" name="day" value="3" />
+                    <label class="lablel">Thuthday</label>
+                    <input class="day" type="checkbox" name="day" value="4" />
+                    <label class="lablel">Wenthday</label>
+                    <input class="day" type="checkbox" name="day" value="5" />
+                    <label class="lablel">Thirthday</label>
+                </div>
+                <div class="formInput">
+                    <button class="button" type="reset">Send</button>
+                    <button class="button" type="submit">Reset</button>
+
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</body>
+</html>
